@@ -1,5 +1,11 @@
+"""
+GUI Tkinter ROI Calculator.
+Run first. Contains Inputs class.
+Takes input from user and verifies it.
+Get Total Btn adds up total and returns Total Investment Percentage and Monthly Income.
+Adjusts when user changes screen size.
+"""
 from tkinter import *
-from tkinter import ttk
 from W3_WP_calcs import str_to_int as sti , add_total
 
 class Inputs():
@@ -49,7 +55,7 @@ window.geometry('400x600')
 title = Label(window, text="ROI Calculator for\nEstate-to-Rental Properties", pady=20)
 
 #input 1:Purchase Price
-input1 = Inputs(2,1,'purchase_price', "Enter Purchase Price:")
+input1 = Inputs(2,1,'purchase_price', "Enter Estate Purchase Price:\n(Include Additional Repairs)")
 
 #input 2: Expected Rental Income
 input2 = Inputs(5,1,'rental_income', "Enter Expected Monthly Rental Income:")

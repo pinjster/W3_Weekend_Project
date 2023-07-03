@@ -1,3 +1,7 @@
+"""
+Notes on Process of ROI calculation.
+Functions to calculate total and validate input.
+"""
 #Return On Investment Calculator
 #Four boxes
 
